@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vi du Layout table</title>
+  </head>
+  <style>
+    .top_table {
+      margin-bottom: 2rem;
+      height: 150px;
+    }
+    .bottom_table {
+      height: 150px;
+    }
+  </style>
+
+  <body>
+    <table border="0" width="100%">
+      <tr>
+        <td>
+          <table
+            align="center"
+            border="0"
+            width="900"
+            style="border-collapse: collapse"
+          >
+            <tr>
+              <td bgcolor="#70bbd9">
+                <table border="1" width="100%">
+                  <tr>
+                    <td>
+                      <table
+                        border="1"
+                        width="100%"
+                      >
+                          <td
+                            width="100%"
+                            valign="top"
+                            style="padding: 30px"
+                          >
+                          </td>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td bgcolor="#008000">
+                <table border="1" width="100%">
+                  <tr>
+                    <td
+                      width="20%"
+                      valign="top"
+                      style="
+                        background-color: rgb(49, 233, 12);
+                        padding: 150px 30px;
+                        text-align: center;
+                      ">
+                    </td>
+                    <td
+                      width="60%"
+                      valign="top"
+                      style="
+                        padding: 20px 30px;
+                        background-color: rgb(90, 33, 224);
+                      "
+                    >
+                      <table
+                        class="top_table"
+                        border="1"
+                        width="100%"
+                        style="background-color: yellow"
+                      >
+                      </table>
+                      <table
+                        class="bottom_table"
+                        border="1"
+                        width="100%"
+                        style="background-color: rgb(255, 102, 0)"
+                      >
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr></tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
