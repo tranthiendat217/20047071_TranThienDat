@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(../image/12f6fc596524aa7af335.jpg);
+        }
+        *{
+            margin:auto;
+            padding:0;
+        }
+        .wrapper{
+            height:auto;
+            width:1089px;
+            background-color:rgb(252, 22, 14);
+
+        }
+        menu{
+            height:50px;
+            width:1089px;
+            background-color:cyan;
+        }
+        header{
+            height:150px;
+            width:1089px;
+            background-color:blue;
+            background-image: url(../image/Header.jfif);
+        }
+        .content{
+            height:400px;
+            width:1089px;
+            background-color: blueviolet;
+
+        }
+        aside{
+            height: 100%;
+            width:30%;
+            background-color:rgb(212, 68, 116);
+            float:left;
+        }
+        section{
+            height:100%;
+            width:70%;
+            background-color:rgb(104, 240, 13);
+            float:left;
+        }
+        footer{
+            height:130px;
+            width:1089px;
+            background-color:rgb(7, 5, 75);
+        }
+        .menu-item li{
+            height:50px;
+            width:200px;
+            float:left;
+            list-style: none;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <menu>
+            <ul class ="menu-item">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+                <li>Item 5</li>
+            </ul>
+        </menu>
+        <header></header>
+         
+        <div class="content">
+            <aside><ul class ="menu-item">
+                <li>Button 1</li>
+                <li>Button 2</li>
+                <li>Button 3</li>
+                <li>Button 4</li>
+                <li>Button 5</li>
+            </ul></aside>
+            <section>
+                <article>
+                    <form action="" method="post" style="margin: 20px;"></form>
+                    <caption>
+                        <h1>THÔNG TIN</h1>
+                    </caption>
+                    <fieldset>
+                        <legend>ĐĂNG KÝ MÙA HÈ XANH</legend>
+                        <div style="padding: 20px;">
+                            <label for="lbHoTen">Họ tên:</label>
+                            <input type="text" name="txtHoTen" id="txtHoTen" required placeholder="Nhap ho ten" maxlength="50"><br>
+                            <label for="lbNgaySinh">Ngày sinh:</label>
+                            <input type="date" name="txtNgaySinh" id="txtNgaySinh" required placeholder="dd/mm/yyyy" maxlength="50"><br>
+                            <label for="lbCCCD">CCCD/CMND:</label>
+                            <input type="text" name="textCCCD" id="textCCCD" required placeholder="CCCD/CMND" maxlength="50"><br>
+                            <label for="lbEmail">Email:</label>
+                            <input type="text" name="textEmail" id="textEmail" required placeholder="Email" maxlength="50"><br>
+                            <label for="lbPassword">Password:</label>
+                            <input type="password" name="textPassword" id="textPassword" required placeholder="Password maxlength="50">
+                            <label for="Giới tính">Giới tính</label><br>
+                            <input type="radio" name="radNam" id="radNam" value="nam">
+                            <label for="radNam">Nam</label>
+                            <input type="radio" name="radNu" id="radNu" value="nu">
+                            <label for="radNu">Nu</label>
+                            <br><br>
+                            <input type="submit" value="Chấp nhận">
+                            <input type="reset" name="" id="Xóa">
+                        </div>
+                    </fieldset>
+                </article>
+            </section>
+        </div>
+        <footer></footer>
+    </div>
+</body>
+</html>
